@@ -1,0 +1,28 @@
+version = 1
+
+[appearance]
+list_mode = "plain"             # plain, numbered, bulleted
+row_gap = 0                     # 0–2
+left_padding = 1                # 0–4
+hide_completed = false
+border = false
+footer = false
+symbols = "unicode"            # unicode, ascii
+foreground = "terminal"
+background = "terminal"
+completed_foreground = "terminal"
+selection_foreground = "terminal"
+mouse = true
+mouse_delete = false
+
+[keys]
+add = ["a"]
+toggle = ["space"]
+
+# If [palette] is absent, load the five defaults.
+# If present, the ordered entries array defines the entire palette.
+# [palette]
+# entries = [
+#   { key = "blue", name = "Blue", hex = "#268BFF" },
+#   { key = "custom-example", name = "Violet", hex = "#AA55FF" },
+# ]
